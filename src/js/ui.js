@@ -27,6 +27,8 @@ const userAdded = (data, id) => {
   users.innerHTML += html;
 
 };
+
+
 // remove user
 const userRemoved
   = (id) => {
