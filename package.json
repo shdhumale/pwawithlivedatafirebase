@@ -1,0 +1,32 @@
+{
+  "name": "pwawithlivedatafirebase",
+  "version": "1.0.0",
+  "description": "This project demo you complete pwa using sync with Firestore DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "copyfiles -u 1 src/**/**/* src/**/* src/* build",
+    "build": "npm run copy && workbox injectManifest workbox-config.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shdhumale/pwawithlivedatafirebase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shdhumale/pwawithlivedatafirebase/issues"
+  },
+  "homepage": "https://github.com/shdhumale/pwawithlivedatafirebase#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {
+    "copyfiles": "^1.2.0",
+    "workbox-cli": "^3.5.0"
+  }
+}
