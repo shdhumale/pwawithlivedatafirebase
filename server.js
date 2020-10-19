@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 //You can create below given client public and privet key using following command
 // .\node_modules\.bin\web-push generate-vapid-keys
-const publicVapidKey = "Your pulic key";
+const publicVapidKey = "Your public key";
 const privateVapidKey = "Your private key";
 
 
