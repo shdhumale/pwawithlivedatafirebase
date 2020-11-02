@@ -13,11 +13,11 @@ if (workbox) {
   },
   {
     "url": "index.html",
-    "revision": "27916a12828d4b6d368823561fe6d01e"
+    "revision": "d7367429a5323e5f52ab70abc328f45d"
   },
   {
     "url": "js/app.js",
-    "revision": "465855f036cc6a87c58a245303613919"
+    "revision": "b46df07815ee76778e242a0fc89596fc"
   },
   {
     "url": "js/db.js",
@@ -73,7 +73,7 @@ if (workbox) {
   },
   {
     "url": "pages/404.html",
-    "revision": "57e7a58fe8c94126b11cd0bf24391f77"
+    "revision": "980eb23ef0e2b15034075a0a48d130a3"
   },
   {
     "url": "pages/fallback.html",

@@ -1,0 +1,19 @@
+{
+  "name": "PWA-Firestore",
+  "short_name": "PWAFIRE",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A news app.",
+  "icons": [{
+      "src": "img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-const publicVapidKey = "BBw9IKZvRihyuFCyS5Mqz6vn1cGXf-b9etPnKZt-22vK87-rGuzYihqCjbpB9PqkgD8CvEyb3xZi6JEQU-x5-wk";
+const publicVapidKey = "BBb2Up1GiAvAxItklQVfzQoEV6W9FTldvj1tcLbwJnfSxfCil6d0viAmkdvhpSIT3Op6dOjNisAH352YoRndegs";
 
 if ('serviceWorker' in navigator) {
   /* navigator.serviceWorker.register('/sw.js')

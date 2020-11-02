@@ -1,4 +1,4 @@
-const publicVapidKey = "Your pulic key";
+const publicVapidKey = "BBb2Up1GiAvAxItklQVfzQoEV6W9FTldvj1tcLbwJnfSxfCil6d0viAmkdvhpSIT3Op6dOjNisAH352YoRndegs";
 
 if ('serviceWorker' in navigator) {
   /* navigator.serviceWorker.register('/sw.js')

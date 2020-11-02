@@ -1,4 +1,3 @@
-
 const express = require('express');
 //import web-push
 const webpush = require("web-push");
@@ -14,8 +13,8 @@ app.use(bodyParser.json());
 
 //You can create below given client public and privet key using following command
 // .\node_modules\.bin\web-push generate-vapid-keys
-const publicVapidKey = "Your public key";
-const privateVapidKey = "Your private key";
+const publicVapidKey = "BBb2Up1GiAvAxItklQVfzQoEV6W9FTldvj1tcLbwJnfSxfCil6d0viAmkdvhpSIT3Op6dOjNisAH352YoRndegs";
+const privateVapidKey = "2BdF9KkhgQgTjr0vroU8lWAhrWEAK9BG3JBHRb-RhSE";
 
 
 //Setting the details that will be required by the webpush api. You can get this code from https://github.com/web-push-libs/web-push
@@ -35,7 +34,9 @@ app.post("/subscribe", (req, res) => {
   res.status(201).json({});
 
   // Create payload:- that we used to send it to the client that will be shown to the end user.
-  const payload = JSON.stringify({ title: "Push Test" });
+  const payload = JSON.stringify({
+    title: "Push Test"
+  });
 
   // Pass object into sendNotification :- In this step we will send this subscription and payload to the client using web.pushSendNotification
   webpush
