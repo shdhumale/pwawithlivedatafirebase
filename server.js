@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 
 //You can create below given client public and privet key using following command
 // .\node_modules\.bin\web-push generate-vapid-keys
-const publicVapidKey = "BBb2Up1GiAvAxItklQVfzQoEV6W9FTldvj1tcLbwJnfSxfCil6d0viAmkdvhpSIT3Op6dOjNisAH352YoRndegs";
-const privateVapidKey = "2BdF9KkhgQgTjr0vroU8lWAhrWEAK9BG3JBHRb-RhSE";
+const publicVapidKey = "PublicKey";
+const privateVapidKey = "PrivateKey";
 
 
 //Setting the details that will be required by the webpush api. You can get this code from https://github.com/web-push-libs/web-push
