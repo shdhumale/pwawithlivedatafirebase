@@ -1,6 +1,6 @@
 # pwawithlivedatafirebase
 
-This project demo you complete pwa using workbox with notification and fallout strategies
+This project demo you complete pwa using firbase as DB, NodeJS and backend technologies and using workbox with notification and fallout strategies
 
 This example contains all the aspect of the workbox such as
 
